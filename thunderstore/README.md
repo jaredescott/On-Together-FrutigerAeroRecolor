@@ -6,17 +6,26 @@ Client-side BepInEx environment recolor for **On-Together** — Frutiger Aero pa
 
 ![In-game screenshot with Frutiger Aero Recolor applied](screenshot.png)
 
+> Store README template for Thunderstore — **not published yet**. Install from GitHub until the listing is live.
+
 ## Requirements
 
 - [BepInEx Pack](https://thunderstore.io/c/on-together/p/BepInEx/BepInExPack/)
 
 ## Install
 
-Install with Thunderstore Mod Manager, then launch On-Together from your mod profile.
+> **Not on Thunderstore yet.** Install from [GitHub](https://github.com/jaredescott/On-Together-FrutigerAeroRecolor) for now.
 
-**Manual:** Copy `J4EGER/FrutigerAeroRecolor.dll` into `BepInEx/plugins/J4EGER-FrutigerAeroRecolor/J4EGER/`.
+1. Build or obtain `FrutigerAeroRecolor.dll` (see the GitHub repo).
+2. Copy it anywhere under your game's `BepInEx/plugins/` folder. For example:
 
-Config: `BepInEx/config/io.j4eger.ontogether.frutigeraerorecolor.cfg`
+   `BepInEx/plugins/FrutigerAeroRecolor/FrutigerAeroRecolor.dll`
+
+3. Launch On-Together from your BepInEx / mod profile.
+
+**When this listing is live:** install with Thunderstore Mod Manager — no manual folder setup needed.
+
+Config (created on first launch): `BepInEx/config/io.j4eger.ontogether.frutigeraerorecolor.cfg`
 
 Log should show: `FrutigerAeroRecolor 1.5.10 loaded`
 

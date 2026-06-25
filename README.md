@@ -6,23 +6,40 @@ Works on **public servers** — only you see the recolor; other players see defa
 
 ![In-game screenshot with Frutiger Aero Recolor applied](docs/screenshot.png)
 
-## Install (players)
+> **Status:** Source and releases are on **GitHub only** for now. A [Thunderstore](https://thunderstore.io/c/on-together/) listing is planned but not published yet.
 
-**Thunderstore (recommended):** [On-Together mod database](https://thunderstore.io/c/on-together/) — search for **FrutigerAeroRecolor** by **J4EGER**.
+## Requirements
 
-**Manual:** Copy `J4EGER/FrutigerAeroRecolor.dll` from the Thunderstore package into:
+- [On-Together](https://store.steampowered.com/app/3837230/OnTogether_Virtual_CoWorking/)
+- [BepInEx Pack](https://thunderstore.io/c/on-together/p/BepInEx/BepInExPack/) for On-Together
 
-`BepInEx/plugins/J4EGER-FrutigerAeroRecolor/J4EGER/`
+## Install (from GitHub)
 
-Requires [BepInEx Pack](https://thunderstore.io/c/on-together/p/BepInEx/BepInExPack/).
+Paths below are relative to your **On-Together game folder** (Steam) or **Thunderstore Mod Manager profile** — wherever your `BepInEx` folder lives.
+
+1. Clone or download this repository.
+2. Build the DLL (see **Build from source** below) or use one you already built.
+3. Copy `FrutigerAeroRecolor.dll` into any folder under `BepInEx/plugins/`. For example:
+
+   `BepInEx/plugins/FrutigerAeroRecolor/FrutigerAeroRecolor.dll`
+
+   BepInEx loads plugins from subfolders; the folder name does not need to match the mod ID or author.
+
+4. Launch On-Together through BepInEx (or your mod profile).
 
 After first launch, config is created at:
 
 `BepInEx/config/io.j4eger.ontogether.frutigeraerorecolor.cfg`
 
+That filename comes from the mod's internal ID and is the same for every player — not from your plugin folder name.
+
 Confirm in `BepInEx/LogOutput.log`:
 
 `FrutigerAeroRecolor 1.5.10 loaded`
+
+### Thunderstore (coming soon)
+
+When published, install with [Thunderstore Mod Manager](https://thunderstore.io/c/on-together/) — it will place files automatically. Until then, use the GitHub steps above.
 
 ## In-game settings
 
@@ -64,19 +81,19 @@ dotnet build -c Release
 
 Output: `bin/Release/net472/FrutigerAeroRecolor.dll`
 
-### Thunderstore package
+## Optional pairing
 
-Packaging files live in `thunderstore/`. From the repo root:
+Pairs well with [ShaderPlayground](https://thunderstore.io/c/on-together/p/YenRex/ShaderPlayground/) for sky/bloom — not required.
+
+## For maintainers: Thunderstore package
+
+Packaging files for a future Thunderstore upload live in `thunderstore/`. From the repo root:
 
 ```powershell
 .\scripts\build-thunderstore.ps1
 ```
 
-Creates `dist/J4EGER-FrutigerAeroRecolor-<version>.zip` ready to upload.
-
-## Optional pairing
-
-Pairs well with [ShaderPlayground](https://thunderstore.io/c/on-together/p/YenRex/ShaderPlayground/) for sky/bloom — not required.
+Creates `dist/J4EGER-FrutigerAeroRecolor-<version>.zip` when you are ready to publish.
 
 ## License
 
@@ -84,4 +101,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-**J4EGER** — [GitHub](https://github.com/jaredescott/On-Together-FrutigerAeroRecolor)
+**J4EGER** — report issues on [GitHub](https://github.com/jaredescott/On-Together-FrutigerAeroRecolor/issues)
