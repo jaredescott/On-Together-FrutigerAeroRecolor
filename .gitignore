@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+
+# Local developer paths (copy from local.paths.props.example)
+local.paths.props
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Thunderstore zip output
+dist/
+*.zip

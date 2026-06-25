@@ -1,0 +1,9 @@
+{
+  "name": "FrutigerAeroRecolor",
+  "version_number": "1.5.10",
+  "website_url": "https://github.com/jaredescott/On-Together-FrutigerAeroRecolor",
+  "description": "Client-side Frutiger Aero environment recolor: lush greens, cream-white buildings, aqua accents. Works on public servers.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305"
+  ]
+}

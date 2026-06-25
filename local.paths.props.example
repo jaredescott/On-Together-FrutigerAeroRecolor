@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!--
+    Copy this file to local.paths.props and edit paths for your machine.
+    local.paths.props is gitignored and never uploaded.
+  -->
+  <PropertyGroup>
+    <!-- On-Together install folder (contains On-Together.exe) -->
+    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\On-Together\On-Together</GameDir>
+
+    <!-- BepInEx folder: game\BepInEx OR Thunderstore profile BepInEx -->
+    <BepInExDir>C:\Program Files (x86)\Steam\steamapps\common\On-Together\On-Together\BepInEx</BepInExDir>
+  </PropertyGroup>
+</Project>
