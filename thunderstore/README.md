@@ -4,6 +4,8 @@ Client-side BepInEx environment recolor for **On-Together** — Frutiger Aero pa
 
 **Source & issues:** https://github.com/jaredescott/On-Together-FrutigerAeroRecolor
 
+![In-game screenshot with Frutiger Aero Recolor applied](screenshot.png)
+
 ## Requirements
 
 - [BepInEx Pack](https://thunderstore.io/c/on-together/p/BepInEx/BepInExPack/)

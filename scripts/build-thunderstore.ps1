@@ -21,6 +21,7 @@ New-Item -ItemType Directory -Path (Join-Path $stage "J4EGER") -Force | Out-Null
 
 Copy-Item $dll (Join-Path $stage "J4EGER\FrutigerAeroRecolor.dll") -Force
 Copy-Item (Join-Path $root "thunderstore\icon.png") (Join-Path $stage "icon.png") -Force
+Copy-Item (Join-Path $root "thunderstore\screenshot.png") (Join-Path $stage "screenshot.png") -Force
 Copy-Item (Join-Path $root "thunderstore\manifest.json") (Join-Path $stage "manifest.json") -Force
 Copy-Item (Join-Path $root "thunderstore\README.md") (Join-Path $stage "README.md") -Force
 Copy-Item (Join-Path $root "CHANGELOG.md") (Join-Path $stage "CHANGELOG.md") -Force

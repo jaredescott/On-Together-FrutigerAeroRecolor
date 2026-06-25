@@ -4,6 +4,8 @@ A **client-side** BepInEx mod for [On-Together: Virtual Co-Working](https://stor
 
 Works on **public servers** — only you see the recolor; other players see default colors unless they install this mod too.
 
+![In-game screenshot with Frutiger Aero Recolor applied](docs/screenshot.png)
+
 ## Install (players)
 
 **Thunderstore (recommended):** [On-Together mod database](https://thunderstore.io/c/on-together/) — search for **FrutigerAeroRecolor** by **J4EGER**.
